@@ -1,0 +1,101 @@
+[
+  {
+    "id": "model-home",
+    "label": "The Model Home (Sudden Valley)",
+    "street": "1 Lucille Lane (model unit)",
+    "city": "Newport Beach",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.6189,
+    "lng": -117.9298,
+    "notes": "Show-home of the abandoned Sudden Valley development; the family's default residence. Half-built neighbors, falling cabinetry, attic hideout for George Sr. (s02)."
+  },
+  {
+    "id": "balboa-towers",
+    "label": "Balboa Towers penthouse",
+    "street": null,
+    "city": "Newport Beach",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.6062,
+    "lng": -117.9312,
+    "notes": "Lucille's penthouse; Lucille Austero lives in the same building. Buster's home for most of his life."
+  },
+  {
+    "id": "banana-stand",
+    "label": "Bluth's Original Frozen Banana Stand",
+    "street": "Balboa Island boardwalk",
+    "city": "Newport Beach",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.6057,
+    "lng": -117.8985,
+    "notes": "The family's first business (1953). Burned down by George Michael and Michael (s01e02 Top Banana) — unfortunately there was always money in the banana stand: $250,000 lining its walls."
+  },
+  {
+    "id": "bluth-company",
+    "label": "Bluth Company offices",
+    "street": null,
+    "city": "Newport Beach",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.66,
+    "lng": -117.87,
+    "notes": "Real-estate development firm; the boardroom, Michael's office, and the banana-yellow staircar fleet base."
+  },
+  {
+    "id": "orange-county-prison",
+    "label": "Orange County Prison",
+    "street": null,
+    "city": "Orange County",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.75,
+    "lng": -117.85,
+    "notes": "George Sr.'s home for most of s01 ('I'm doing the time of my life!'). Site of family visits, Tobias's method-acting incarceration, and the White Power Bill incident."
+  },
+  {
+    "id": "wee-britain",
+    "label": "Wee Britain",
+    "street": null,
+    "city": "Orange County",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.68,
+    "lng": -117.83,
+    "notes": "British-themed district; home of Rita Leeds and the Mr. F arc (s03). Poppy-seed vendors and a tiny town aesthetic."
+  },
+  {
+    "id": "cabin",
+    "label": "The Bluth family cabin",
+    "street": null,
+    "city": "Big Bear (area)",
+    "state": "CA",
+    "country": "USA",
+    "lat": 34.24,
+    "lng": -116.91,
+    "notes": "Site of generations of broken camping promises (The Cabin Show, s03e01); later towed on a flatbed."
+  },
+  {
+    "id": "mexico",
+    "label": "Mexico (various)",
+    "street": null,
+    "city": null,
+    "state": null,
+    "country": "Mexico",
+    "lat": 32.52,
+    "lng": -117.03,
+    "notes": "George Sr.'s flight destination (s02 ¡Amigos!), the Mongolian-barbecue mix-up, and the s05 'self-deportation' arc."
+  },
+  {
+    "id": "queen-mary",
+    "label": "The Queen Mary",
+    "street": null,
+    "city": "Long Beach",
+    "state": "CA",
+    "country": "USA",
+    "lat": 33.7526,
+    "lng": -118.1898,
+    "notes": "Club/venue ship; stolen by Lucille in the s03 finale (Development Arrested) during the retirement-party escape."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ev-banana-stand-founded",
+    "personId": "george-sr",
+    "kind": "work",
+    "title": "Frozen banana stand opens on Balboa Island",
+    "date": { "year": 1953, "precision": "year", "display": "1953" },
+    "locationId": "banana-stand",
+    "description": "The original family business — allegedly based on an idea taken from Korean partner Kim, a debt that resurfaces via Annyong decades later."
+  },
+  {
+    "id": "ev-gob-born",
+    "personId": "gob",
+    "kind": "birth",
+    "title": "George Oscar Bluth II born",
+    "date": { "iso": "1965-05-04", "precision": "day", "display": "May 4, 1965" },
+    "locationId": null,
+    "description": "Firstborn son. The 'II' is load-bearing: he is not technically a Junior."
+  },
+  {
+    "id": "ev-michael-born",
+    "personId": "michael",
+    "kind": "birth",
+    "title": "Michael Bluth born ('Nichael' on the birth certificate)",
+    "date": { "iso": "1967-12-14", "precision": "day", "display": "December 14, 1967" },
+    "locationId": null,
+    "description": "Second son; later paired with adopted 'twin' Lindsay, who is in fact three years older."
+  },
+  {
+    "id": "ev-lindsay-adopted",
+    "personId": "lindsay",
+    "kind": "other",
+    "title": "Lindsay (born Nellie Sitwell) adopted by the Bluths",
+    "date": { "year": 1968, "precision": "circa", "display": "c. 1968" },
+    "locationId": null,
+    "description": "Adopted primarily to spite rival developer Stan Sitwell; raised as Michael's twin. She learns the truth in 2006 (Family Ties, s03e11)."
+  },
+  {
+    "id": "ev-buster-born",
+    "personId": "buster",
+    "kind": "birth",
+    "title": "Byron 'Buster' Bluth born",
+    "date": { "iso": "1973-09-30", "precision": "day", "display": "September 30, 1973" },
+    "locationId": null,
+    "description": "Result of Lucille's affair with Oscar — 'just a turn of the head, and whoosh'; paternity is an open family secret."
+  },
+  {
+    "id": "ev-gob-steve-holt",
+    "personId": "steve-holt",
+    "kind": "birth",
+    "title": "Steve Holt born to Eve Holt",
+    "date": { "year": 1985, "precision": "circa", "display": "c. 1985" },
+    "locationId": null,
+    "description": "G.O.B.'s high-school son; the fact surfaces in 2005 (The Immaculate Election era)."
+  },
+  {
+    "id": "ev-michael-tracey-married",
+    "personId": "michael",
+    "kind": "marriage",
+    "title": "Michael marries Tracey",
+    "date": { "year": 1989, "precision": "circa", "display": "c. 1989" },
+    "locationId": null,
+    "description": "George Michael arrives the following year."
+  },
+  {
+    "id": "ev-george-michael-born",
+    "personId": "george-michael",
+    "kind": "birth",
+    "title": "George Michael Bluth born",
+    "date": { "iso": "1990-03-04", "precision": "day", "display": "March 4, 1990" },
+    "locationId": null,
+    "description": "Michael and Tracey's only child."
+  },
+  {
+    "id": "ev-maeby-born",
+    "personId": "maeby",
+    "kind": "birth",
+    "title": "Mae 'Maeby' Fünke born",
+    "date": { "iso": "1990-09-22", "precision": "day", "display": "September 22, 1990" },
+    "locationId": null,
+    "description": "Conceived as part of a scheme of Lindsay and Tobias's that outlived its premise."
+  },
+  {
+    "id": "ev-tracey-died",
+    "personId": "tracey",
+    "kind": "death",
+    "title": "Tracey Bluth dies of ovarian cancer",
+    "date": { "year": 2001, "precision": "year", "display": "2001" },
+    "locationId": null,
+    "description": "Two years before the documentary begins; Michael raises George Michael alone."
+  },
+  {
+    "id": "ev-george-sr-arrested",
+    "personId": "george-sr",
+    "kind": "other",
+    "title": "George Sr. arrested by the SEC at his retirement party",
+    "date": { "iso": "2003-11-02", "precision": "day", "display": "November 2, 2003 (Pilot)" },
+    "locationId": "queen-mary",
+    "description": "Boat party on the ocean; charges include using the company as his personal piggy bank and, eventually, 'light treason' (homes for Saddam Hussein). The event that starts the documentary."
+  },
+  {
+    "id": "ev-michael-takes-over",
+    "personId": "michael",
+    "kind": "work",
+    "title": "Michael takes over the Bluth Company",
+    "date": { "iso": "2003-11-02", "precision": "day", "display": "November 2003" },
+    "locationId": "bluth-company",
+    "description": "After being passed over for president in favor of Lucille, he stays to hold family and company together."
+  },
+  {
+    "id": "ev-banana-stand-burns",
+    "personId": "george-michael",
+    "kind": "other",
+    "title": "Banana stand burned down for the insurance",
+    "date": { "iso": "2003-11-09", "precision": "day", "display": "November 2003 (Top Banana)" },
+    "locationId": "banana-stand",
+    "description": "Michael and George Michael torch it, not knowing $250,000 cash lined the walls. There was always money in the banana stand."
+  },
+  {
+    "id": "ev-buster-army",
+    "personId": "buster",
+    "kind": "military",
+    "title": "Buster joins the army",
+    "date": { "year": 2004, "precision": "year", "display": "2004" },
+    "locationId": null,
+    "description": "Enlisted after a Michael Moore-lookalike ambush and Lucille's bluff-calling; serves mostly at a desk."
+  },
+  {
+    "id": "ev-buster-seal",
+    "personId": "buster",
+    "kind": "other",
+    "title": "Buster's left hand bitten off by a loose seal",
+    "date": { "iso": "2005-01-16", "precision": "circa", "display": "January 2005 (Out on a Limb)" },
+    "locationId": null,
+    "description": "A seal wearing a yellow bow tie, freed by G.O.B. and given a taste for mammal blood. Ends Buster's army service; begins the hook era. Foreshadowed by the model-home loose-seal warnings and misheard 'Lucille' puns."
+  },
+  {
+    "id": "ev-george-michael-maeby-wedding",
+    "personId": "george-michael",
+    "kind": "other",
+    "title": "George Michael and Maeby's non-binding hospital 'wedding'",
+    "date": { "year": 2005, "precision": "year", "display": "2005–06 (s03)" },
+    "locationId": null,
+    "description": "A vow-renewal stunt for a dying-seeming patient escalates; the cousins end up accidentally quasi-married. Later annulled in spirit if not paperwork."
+  },
+  {
+    "id": "ev-lucille-queen-mary",
+    "personId": "lucille",
+    "kind": "other",
+    "title": "Lucille steals the Queen Mary",
+    "date": { "iso": "2006-02-10", "precision": "circa", "display": "February 2006 (Development Arrested)" },
+    "locationId": "queen-mary",
+    "description": "Flees the second retirement party as the SEC closes in; runs aground. The charge that eventually sticks to her."
+  },
+  {
+    "id": "ev-cinco-de-cuatro",
+    "personId": "lucille-austero",
+    "kind": "other",
+    "title": "Lucille Austero disappears on Cinco de Cuatro",
+    "date": { "iso": "2015-05-04", "precision": "day", "display": "May 4, 2015 (Cinco de Cuatro)" },
+    "locationId": null,
+    "description": "Vanishes from the harbor festivities after confronting several Bluths; blood on the staircar. The central mystery of s05; Buster is the chief suspect."
+  },
+  {
+    "id": "ev-lindsay-congress",
+    "personId": "lindsay",
+    "kind": "work",
+    "title": "Lindsay runs for Congress",
+    "date": { "year": 2015, "precision": "circa", "display": "2015–18 (s04–s05)" },
+    "locationId": null,
+    "description": "Takes over the seat race against (the missing) Lucille Austero, reversing her activist positions mid-rally."
+  },
+  {
+    "id": "ev-fakeblock",
+    "personId": "george-michael",
+    "kind": "work",
+    "title": "George Michael launches 'Fakeblock' as George Maharis",
+    "date": { "year": 2013, "precision": "circa", "display": "c. 2013 (s04)" },
+    "locationId": null,
+    "description": "A wood-block-sound app inflated by rumor into an anti-piracy privacy platform; the lie compounds until it collides with Michael and Rebel Alley."
+  }
+]

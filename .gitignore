@@ -1,0 +1,13 @@
+# Not distributed: verbatim show dialogue and anything derived from it.
+# Regenerate everything with the quick-start commands in README.md.
+data/transcripts/
+corpus/
+out/
+
+# image binaries (show screencaps) are fetched locally, never committed
+media/
+
+.DS_Store
+__pycache__/
+*.pyc
+.venv/

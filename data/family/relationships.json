@@ -1,0 +1,20 @@
+[
+  { "fromId": "george-sr", "toId": "gob", "type": "parent" },
+  { "fromId": "george-sr", "toId": "michael", "type": "parent" },
+  { "fromId": "george-sr", "toId": "lindsay", "type": "parent", "note": "adoptive; Lindsay born Nellie Sitwell" },
+  { "fromId": "george-sr", "toId": "buster", "type": "parent", "note": "legal/presumed; biological father is Oscar" },
+  { "fromId": "lucille", "toId": "gob", "type": "parent" },
+  { "fromId": "lucille", "toId": "michael", "type": "parent" },
+  { "fromId": "lucille", "toId": "lindsay", "type": "parent", "note": "adoptive" },
+  { "fromId": "lucille", "toId": "buster", "type": "parent" },
+  { "fromId": "lucille", "toId": "annyong", "type": "parent", "note": "adoptive (s01); real name Hel-loh" },
+  { "fromId": "oscar", "toId": "buster", "type": "parent", "note": "biological — the family's worst-kept secret" },
+  { "fromId": "michael", "toId": "george-michael", "type": "parent" },
+  { "fromId": "tracey", "toId": "george-michael", "type": "parent" },
+  { "fromId": "lindsay", "toId": "maeby", "type": "parent" },
+  { "fromId": "tobias", "toId": "maeby", "type": "parent" },
+  { "fromId": "gob", "toId": "steve-holt", "type": "parent", "note": "with Eve Holt, high school; revealed s02" },
+  { "fromId": "george-sr", "toId": "lucille", "type": "spouse" },
+  { "fromId": "michael", "toId": "tracey", "type": "spouse", "note": "widowed 2001" },
+  { "fromId": "tobias", "toId": "lindsay", "type": "spouse", "note": "long-collapsing marriage; open by s03, divorcing across s04" }
+]
