@@ -20,5 +20,6 @@ exact episode.
 - **Growth rule:** the set is append-only. Every time the human tester (a
   show fanatic) catches the system in an error, that error becomes a new
   question. Target: 200+ questions before trusting accuracy claims.
-- Season 5 questions are deliberately thin until S5 transcripts land
-  (FOLLOWUPS.md) — wiki chunks cover S5 events at low resolution only.
+- Season 5 is out of canon (product-owner ruling) — S5-adjacent questions
+  stay in the set only where the events echo back into S1–S4 lore, and wiki
+  chunks cover them at low resolution.

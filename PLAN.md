@@ -20,7 +20,7 @@ naturally onto Hope Chest's people / photos / documents / life-events model.
 | Layer | Source | Committed? | Status |
 |---|---|---|---|
 | Transcripts S1–S4 (68 eps) | arresteddevelopment.fandom.com `Transcript of *` pages, MediaWiki API | no — fetched locally into gitignored `data/transcripts/` (verbatim dialogue is not redistributed) | scripted |
-| Transcripts S5 (16 eps) | not on fandom; bot-challenged transcript sites → follow-up job | no (gap) | see FOLLOWUPS.md |
+| Transcripts S5 (16 eps) | **out of canon** (product owner ruling); optional someday — see FOLLOWUPS.md | no | non-goal |
 | Wiki lore docs | fandom character/episode/location pages (CC-BY-SA) | yes (`data/wiki/`) | scripted |
 | Family core data | hand-authored from show canon | yes (`data/family/`) | authored |
 | Episode index | scripted from wiki season templates, all 84 eps S1–S5 | yes (`data/family/episodes.json`) | scripted |
@@ -63,8 +63,8 @@ From `hopechest-demo-2026/prisma/schema.prisma`:
 
 ## Version 1 definition of done
 
-- [x] Transcripts S1–S4 (scripted fetch; local-only by design)
-- [ ] Transcripts S5 (blocked on source — FOLLOWUPS.md)
+- [x] Transcripts S1–S4 (scripted fetch; local-only by design) — **the full
+  canon corpus: S5 is out of canon for this project** (product owner ruling)
 - [x] Core family data + episode index
 - [x] Wiki lore docs for the 9 core Bluths + key recurring characters
 - [x] Photo manifest + fetch script (100s of screencaps, local)

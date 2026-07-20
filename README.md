@@ -69,10 +69,11 @@ assembling the data.
 4. **The narrator is load-bearing.** Narrator lines state the show's actual
    facts and punchline-corrections ("He isn't."). They're excluded from
    `speakers` deliberately — never exclude them from the retrievable text.
-5. **Known blind spot: Season 5.** No transcript chunks exist for s05e01–e16
-   (FOLLOWUPS.md #1). S5 questions can only be answered from wiki + family
-   chunks — the system should say so rather than improvise, and eval expects
-   that honesty.
+5. **Season 5 is out of canon** (product-owner ruling). The transcript corpus
+   (S1–S4) is therefore *complete*, not partial. S5 still leaks in at low
+   resolution via wiki and family chunks (Cinco de Cuatro, Lucille 2's
+   disappearance) — answers drawing on it should flag it as
+   "post-documentary material" rather than improvise details.
 6. **Expect trap questions.** The eval set embeds false premises
    (`tags: ["trap"]`); the grading rule is that the premise must be corrected.
    Don't tune retrieval to sycophancy — tune it to evidence.
