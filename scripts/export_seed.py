@@ -83,7 +83,7 @@ def document_rows():
             "id": f"doc-{path.stem}",
             "title": f"Documentary transcript — {title}",
             "kind": "record",
-            "scanSrc": None,
+            "scanSrc": f"pdf/{path.stem}.pdf",  # rendered by make_pdfs.py
             "excerpt": body[:280].rsplit(" ", 1)[0] + "…",
             "year": airdate[:4] or None,
             "uploadedById": SEEDER,

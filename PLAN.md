@@ -31,11 +31,15 @@ naturally onto Hope Chest's people / photos / documents / life-events model.
 ## Pipeline
 
 ```
-fetch_transcripts.py ─┐
-fetch_wiki.py ────────┼─> data/ ──> build_corpus.py ──> corpus/*.jsonl ──> RAG index
-fetch_photos.py ──────┘      └────> export_seed.py ──> out/seed/*.json ──> Hope Chest DB
-   (hand-authored data/family/*.json feeds both)
+fetch_transcripts.py ─┐              ┌─> build_corpus.py ──> corpus/*.jsonl ──> RAG index
+fetch_wiki.py ────────┼─> data/ ─────┼─> make_pdfs.py ─────> out/pdf/*.pdf ──┐ (uploadable
+fetch_photos.py ──────┘              └─> export_seed.py ───> out/seed/*.json ┴─> Hope Chest DB
+   (hand-authored data/family/*.json feeds all three)
 ```
+
+`make_pdfs.py` renders each transcript as a typed-manuscript PDF (stdlib PDF
+writer, core fonts) — the artifact a real family archive would hold; seed
+`documents.scanSrc` points at them.
 
 All scripts are Python 3 stdlib-only (no venv, no deps), idempotent, and
 rate-limited. Re-running refreshes in place.

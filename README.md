@@ -36,6 +36,7 @@ python3 scripts/fetch_transcripts.py   # transcripts S1–S4 -> data/transcripts
 python3 scripts/fetch_wiki.py          # refresh lore docs (committed)
 python3 scripts/fetch_photos.py        # refresh screencap manifest; --download for binaries
 python3 scripts/build_corpus.py        # data/ -> corpus/*.jsonl
+python3 scripts/make_pdfs.py           # transcripts -> out/pdf/*.pdf typed manuscripts
 python3 scripts/export_seed.py         # -> out/seed/*.json (Hope Chest tables)
 ```
 
