@@ -3,16 +3,11 @@
 Ordered by value to RAG accuracy. Each is scoped to run as an independent
 session / sub-agent job.
 
-## 1. Season 5 transcripts — DEPRIORITIZED: S5 is not canon here
+## 1. Season 5 transcripts (blocks "complete transcript" goal)
 
-Product-owner ruling (2026-07-20): season 5 is out of canon for this dataset,
-so the S1–S4 corpus **is** the complete canon and this job is optional
-flavor, not a v1 blocker. S5 rows remain in `episodes.json` and the photo
-manifest (marked by `season: 5`) for anyone who disagrees.
-
-If ever wanted: the wiki has no `Transcript of` pages for S5's 16 episodes,
-and the known sources are bot-challenged for plain HTTP (subslikescript.com →
-Cloudflare; transcripts.foreverdreaming.org → Anubis). Options, best first:
+The wiki has no `Transcript of` pages for S5's 16 episodes. Known sources are
+bot-challenged for plain HTTP (subslikescript.com → Cloudflare challenge;
+transcripts.foreverdreaming.org → Anubis JS challenge). Options, best first:
 
 1. **Own subtitles**: rip .srt from a personal copy / OpenSubtitles API (free
    key) → `scripts/` gains a `srt_to_transcript.py` (speaker-less, still
