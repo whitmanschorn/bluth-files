@@ -7,6 +7,9 @@ out/
 # image binaries (show screencaps) are fetched locally, never committed
 media/
 
+node_modules/
+*.tgz
+
 .DS_Store
 __pycache__/
 *.pyc

@@ -19,7 +19,7 @@ naturally onto Hope Chest's people / photos / documents / life-events model.
 
 | Layer | Source | Committed? | Status |
 |---|---|---|---|
-| Transcripts S1–S4 (68 eps) | arresteddevelopment.fandom.com `Transcript of *` pages, MediaWiki API | no — fetched locally into gitignored `data/transcripts/` (verbatim dialogue is not redistributed) | scripted |
+| Transcripts S1–S4 (68 eps) | arresteddevelopment.fandom.com `Transcript of *` pages, MediaWiki API | no — fetched locally into gitignored `data/transcripts/` (verbatim dialogue is not redistributed); `data/transcripts.lock.json` (committed) pins revision ids + SHA-256 so fetches are byte-reproducible per npm version | scripted |
 | Transcripts S5 (16 eps) | not on fandom; bot-challenged transcript sites → follow-up job | no (gap) | see FOLLOWUPS.md |
 | Wiki lore docs | fandom character/episode/location pages (CC-BY-SA) | yes (`data/wiki/`) | scripted |
 | Family core data | hand-authored from show canon | yes (`data/family/`) | authored |

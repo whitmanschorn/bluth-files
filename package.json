@@ -1,0 +1,41 @@
+{
+  "name": "bluth-files",
+  "version": "0.1.0",
+  "description": "Bluth family test data + reproducible pipeline for Hope Chest, a family-memory RAG product. Each version pins exact source revisions: the copyrighted transcript layer rebuilds locally, byte-identical, checksum-verified.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "bin": {
+    "bluth-files": "bin/bluth-files.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "bin/",
+    "scripts/",
+    "data/family/",
+    "data/wiki/",
+    "data/photos/",
+    "data/transcripts.lock.json",
+    "rag/",
+    "PLAN.md",
+    "FOLLOWUPS.md",
+    "DATA_SOURCES.md"
+  ],
+  "scripts": {
+    "fetch": "node bin/bluth-files.mjs fetch",
+    "build": "node bin/bluth-files.mjs build",
+    "verify": "node bin/bluth-files.mjs verify"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitmanschorn/bluth-files.git"
+  },
+  "keywords": ["test-data", "rag", "fixtures", "arrested-development", "hopechest", "family-archive"],
+  "author": "Whitman Schorn <me@wschorn.com>",
+  "license": "MIT AND CC-BY-SA-3.0"
+}

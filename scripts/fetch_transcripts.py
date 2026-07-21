@@ -8,18 +8,27 @@ transcript pages there — see FOLLOWUPS.md. Dialogue format in the output:
     Speaker: line
 
 Run after fetch_episodes.py (filenames key on the episode index).
+
+Reproducibility: data/transcripts.lock.json (committed) pins each transcript
+to an exact wiki revision id + SHA-256 of the emitted file, so every clone
+rebuilds byte-identical transcripts. Locked episodes are fetched by revid and
+checksum-verified; new episodes get locked on first fetch. `--repin` refetches
+latest revisions and rewrites the lock (bump the npm version after).
 """
 
+import hashlib
 import json
 import pathlib
 import re
+import sys
 from datetime import date
 
 from fandom import (WIKI_LICENSE, api, drop_leading_template, frontmatter,
-                    page_url, page_wikitext, strip_links)
+                    page_revision, page_url, strip_links)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "transcripts"
+LOCK = ROOT / "data" / "transcripts.lock.json"
 EPISODES = json.loads((ROOT / "data" / "family" / "episodes.json").read_text())
 
 # transcript page title -> episode title, where the wiki disagrees with itself
@@ -59,9 +68,11 @@ def transcript_pages():
 
 
 def main():
+    repin = "--repin" in sys.argv
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    lock = json.loads(LOCK.read_text()) if LOCK.exists() and not repin else {}
     by_title = {e["title"]: e for e in EPISODES}
-    unmatched, written = [], 0
+    unmatched, written, drift = [], 0, []
 
     for page_title in transcript_pages():
         ep_title = page_title.removeprefix("Transcript of ").strip()
@@ -69,23 +80,39 @@ def main():
         if ep is None:
             unmatched.append(page_title)
             continue
-        _, wikitext = page_wikitext(page_title)
+        pin = lock.get(ep["code"])
+        if pin:
+            _, revid, wikitext = page_revision(revid=pin["revid"])
+            retrieved = pin["retrieved"]
+        else:
+            _, revid, wikitext = page_revision(title=page_title)
+            retrieved = date.today().isoformat()
         meta = {
             "title": ep["title"],
             "code": ep["code"],
             "season": ep["season"],
             "episode": ep["episode"],
             "airdate": ep["airdate"],
-            "source_url": page_url(page_title),
-            "retrieved": date.today().isoformat(),
+            "source_url": f"{page_url(page_title)}?oldid={revid}",
+            "retrieved": retrieved,
             "license": WIKI_LICENSE,
         }
-        path = OUT_DIR / f"{ep['code']}-{ep['slug']}.md"
-        path.write_text(frontmatter(meta) + clean_body(wikitext) + "\n")
+        content = frontmatter(meta) + clean_body(wikitext) + "\n"
+        sha = hashlib.sha256(content.encode()).hexdigest()
+        if pin and sha != pin["sha256"]:
+            drift.append(ep["code"])
+        lock[ep["code"]] = {"page": page_title, "revid": revid,
+                            "retrieved": retrieved, "sha256": sha}
+        (OUT_DIR / f"{ep['code']}-{ep['slug']}.md").write_text(content)
         written += 1
-        print(f"{ep['code']}  {ep['title']}")
+        print(f"{ep['code']}  rev {revid}  {ep['title']}")
 
+    LOCK.write_text(json.dumps(dict(sorted(lock.items())), indent=1) + "\n")
     print(f"\nwrote {written} transcripts -> {OUT_DIR.relative_to(ROOT)}/")
+    print(f"lock: {LOCK.relative_to(ROOT)} ({len(lock)} pins)")
+    if drift:
+        print(f"CHECKSUM DRIFT (pinned revid produced different bytes — "
+              f"investigate before trusting): {', '.join(drift)}")
     if unmatched:
         print("UNMATCHED (add to ALIASES):")
         for t in unmatched:

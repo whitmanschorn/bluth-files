@@ -45,6 +45,23 @@ def page_wikitext(title):
     return page["title"], page["revisions"][0]["slots"]["main"]["*"]
 
 
+def page_revision(title=None, revid=None):
+    """Return (resolved_title, revid, wikitext) — for the latest revision of
+    `title`, or the exact pinned revision when `revid` is given."""
+    params = dict(action="query", prop="revisions",
+                  rvprop="content|ids", rvslots="main")
+    if revid:
+        params["revids"] = str(revid)
+    else:
+        params.update(titles=title, redirects="1")
+    data = api(**params)
+    page = next(iter(data["query"]["pages"].values()))
+    if "missing" in page or "revisions" not in page:
+        raise KeyError(f"revision not found: {title or revid}")
+    rev = page["revisions"][0]
+    return page["title"], rev["revid"], rev["slots"]["main"]["*"]
+
+
 def page_url(title):
     return "https://arresteddevelopment.fandom.com/wiki/" + urllib.parse.quote(
         title.replace(" ", "_")

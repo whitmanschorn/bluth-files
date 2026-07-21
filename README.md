@@ -29,7 +29,25 @@ this repository** — the fetch scripts rebuild it on your machine in ~5
 minutes, from the same community-transcript sources, byte-for-byte
 reproducibly.
 
-## Quick start
+## Use as an npm package (frozen versions)
+
+```bash
+npm install bluth-files        # committed data + pipeline, no dialogue in the tarball
+npx bluth-files all            # fetch (lock-pinned) + build + checksum-verify
+```
+
+```js
+import { people, episodes, evalQuestions, corpus, seedTables } from "bluth-files";
+```
+
+Every published version embeds `data/transcripts.lock.json`, pinning each
+transcript to an **exact wiki revision id + SHA-256** — so `bluth-files@0.1.0`
+reconstructs the same corpus byte-for-byte on any machine, forever, without
+the package redistributing the dialogue. To advance the freeze:
+`python3 scripts/fetch_transcripts.py --repin`, review the drift, bump the
+version, publish. Requires Node 18+ and Python 3.10+ (stdlib only).
+
+## Quick start (repo checkout)
 
 ```bash
 python3 scripts/fetch_transcripts.py   # transcripts S1–S4 -> data/transcripts/ (~2 min)

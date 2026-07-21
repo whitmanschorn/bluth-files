@@ -1,0 +1,410 @@
+{
+ "s01e01": {
+  "page": "Transcript of Pilot",
+  "revid": 36502,
+  "retrieved": "2026-07-21",
+  "sha256": "a192211e5ae371caea57f02d0a557c38e5f96948f51a18dd169f97d216d619b8"
+ },
+ "s01e02": {
+  "page": "Transcript of Top Banana",
+  "revid": 36471,
+  "retrieved": "2026-07-21",
+  "sha256": "01cdef64f42b7640e0ecef6f20db4c9f39aff45ba4fb30fbe1f38cc3c1a089a5"
+ },
+ "s01e03": {
+  "page": "Transcript of Bringing Up Buster",
+  "revid": 36935,
+  "retrieved": "2026-07-21",
+  "sha256": "1644a45f98a0f26d44549df08f70261c18de3f436d702b89f62d017c5644941d"
+ },
+ "s01e04": {
+  "page": "Transcript of Key Decisions",
+  "revid": 36472,
+  "retrieved": "2026-07-21",
+  "sha256": "78c4e86d78905077bf6261a6df49de9caf882c99f4ac58bb1a6af1f6ddc86f5e"
+ },
+ "s01e05": {
+  "page": "Transcript of Charity Drive",
+  "revid": 14626,
+  "retrieved": "2026-07-21",
+  "sha256": "d13410ec99b66faba6e3512a1f9667946bfed4fce40c742fe2eecc4b02f115db"
+ },
+ "s01e06": {
+  "page": "Transcript of Visiting Ours",
+  "revid": 14628,
+  "retrieved": "2026-07-21",
+  "sha256": "3bea52eccdbbeadb649ac7b71092efe280206dc7555d79535c8d335571ab35f7"
+ },
+ "s01e07": {
+  "page": "Transcript of In God We Trust",
+  "revid": 36694,
+  "retrieved": "2026-07-21",
+  "sha256": "9e0e582bba7bce10c9682f8ab0e305a1a80ff5fff93fb02adbbb4ddeb53865ce"
+ },
+ "s01e08": {
+  "page": "Transcript of My Mother, the Car",
+  "revid": 50276,
+  "retrieved": "2026-07-21",
+  "sha256": "78a8c2f73f2a17b584893cee4659c14e9d75be8d87948e090b1fe67c8bf46f82"
+ },
+ "s01e09": {
+  "page": "Transcript of Storming the Castle",
+  "revid": 41010,
+  "retrieved": "2026-07-21",
+  "sha256": "3e5680c8b388c8068facb2abc6a1e232f58154e98b63cdeada8062626b312c11"
+ },
+ "s01e10": {
+  "page": "Transcript of Pier Pressure",
+  "revid": 47469,
+  "retrieved": "2026-07-21",
+  "sha256": "bb2bd02c1618ffb4f36a3f02fbe3a8e85aae01aca41b07dd0d7e09f7c7d24e67"
+ },
+ "s01e11": {
+  "page": "Transcript of Public Relations",
+  "revid": 47500,
+  "retrieved": "2026-07-21",
+  "sha256": "b24965ea928adc9e832d2d50f9b0563f919cf27395ef64bf0fe1a5cd0bbd64f9"
+ },
+ "s01e12": {
+  "page": "Transcript of Marta Complex",
+  "revid": 36466,
+  "retrieved": "2026-07-21",
+  "sha256": "94cf75174a796e268fabcbd38dd436b506c257ea035e5e5ffde8e6c1f377dac1"
+ },
+ "s01e13": {
+  "page": "Transcript of Beef Consomm\u00e9",
+  "revid": 22637,
+  "retrieved": "2026-07-21",
+  "sha256": "7c6a20cb3ea856d69e3d1e4130610d1b18c216c6635687af8f5a5f7b91a0234d"
+ },
+ "s01e14": {
+  "page": "Transcript of Shock and Aww",
+  "revid": 47505,
+  "retrieved": "2026-07-21",
+  "sha256": "1b17c6c9559b1e2249ed5a59f28d422369ccbf678a6eb9f9e3f914af4c25a9e7"
+ },
+ "s01e15": {
+  "page": "Transcript of Staff Infection",
+  "revid": 47506,
+  "retrieved": "2026-07-21",
+  "sha256": "ed291d7bb8bbc40e5233870c50137ac627fa2107668c48994c600b40f8ffe1e3"
+ },
+ "s01e16": {
+  "page": "Transcript of Altar Egos",
+  "revid": 30981,
+  "retrieved": "2026-07-21",
+  "sha256": "107cb691f9be7f8945cf2e47a01d52f6e9c37ff131a61928dd7bc6fcbae4cfcf"
+ },
+ "s01e17": {
+  "page": "Transcript of Justice Is Blind",
+  "revid": 38423,
+  "retrieved": "2026-07-21",
+  "sha256": "76922874b58f89f787867b36d7007173193a15c6971a9430c6a0e247eb30a778"
+ },
+ "s01e18": {
+  "page": "Transcript of Missing Kitty",
+  "revid": 30982,
+  "retrieved": "2026-07-21",
+  "sha256": "c4863464e7e803acbd395decc1913f6aca3c4ebc1efafbe48fd6c88c0ea7679d"
+ },
+ "s01e19": {
+  "page": "Transcript of Best Man for the Gob",
+  "revid": 14642,
+  "retrieved": "2026-07-21",
+  "sha256": "063ccaadc67ff66bd614f86754de41ce50e732143a704955ea1a046490105c23"
+ },
+ "s01e20": {
+  "page": "Transcript of Whistler's Mother",
+  "revid": 36474,
+  "retrieved": "2026-07-21",
+  "sha256": "08131349ae7afc60289db2642ce3e1f26658d4b5e2606d866607402b14bd01e8"
+ },
+ "s01e21": {
+  "page": "Transcript of Not Without My Daughter",
+  "revid": 47451,
+  "retrieved": "2026-07-21",
+  "sha256": "693739261278815da9f842468d0921b6dd314c6704c6af28706bd83d41fe91d0"
+ },
+ "s01e22": {
+  "page": "Transcript of Let 'Em Eat Cake",
+  "revid": 36475,
+  "retrieved": "2026-07-21",
+  "sha256": "46c18fcd674ab909d10275fbc5a4d9453863f084d72d6d4db111e93be36ed695"
+ },
+ "s02e01": {
+  "page": "Transcript of The One Where Michael Leaves",
+  "revid": 36445,
+  "retrieved": "2026-07-21",
+  "sha256": "43b39d63eabc5bf51a885a348179fdbb1c7895041caae2b8fb7de1605fea9c94"
+ },
+ "s02e02": {
+  "page": "Transcript of The One Where They Build a House",
+  "revid": 36440,
+  "retrieved": "2026-07-21",
+  "sha256": "5f0109d0cf44bae706ca696e58b9a4181590d63f1e26fcb9b3b38c402656b7bc"
+ },
+ "s02e03": {
+  "page": "Transcript of \u00a1Amigos!",
+  "revid": 35293,
+  "retrieved": "2026-07-21",
+  "sha256": "1a5c862add852c341247c5adcd6fe140fd44eda254e59e36c0ba5725ff037576"
+ },
+ "s02e04": {
+  "page": "Transcript of Good Grief",
+  "revid": 35294,
+  "retrieved": "2026-07-21",
+  "sha256": "6428fa70ea131a9fe0ede057a444310d80c4c84f654fbf220bebf2d3887f3669"
+ },
+ "s02e05": {
+  "page": "Transcript of Sad Sack",
+  "revid": 37758,
+  "retrieved": "2026-07-21",
+  "sha256": "544a77d5ca9dc05e0db57224d30b5080405721ac3f1578adf35a837ce98a6bd2"
+ },
+ "s02e06": {
+  "page": "Transcript of Afternoon Delight",
+  "revid": 50962,
+  "retrieved": "2026-07-21",
+  "sha256": "0350da8456b066a7bde98d716aca23fb3b4c91759834b84de3080275ed5afa65"
+ },
+ "s02e07": {
+  "page": "Transcript of Switch Hitter",
+  "revid": 41005,
+  "retrieved": "2026-07-21",
+  "sha256": "c7a1ed0643edf625170fbb58681ff6eecbe8d7fff826b4a00f73f523abea591b"
+ },
+ "s02e08": {
+  "page": "Transcript of Queen for a Day",
+  "revid": 54992,
+  "retrieved": "2026-07-21",
+  "sha256": "dc580134298b40b6df327a533a70d886f1dd8d5c8ca040c0f13097cc2d037889"
+ },
+ "s02e09": {
+  "page": "Transcript of Burning Love",
+  "revid": 54994,
+  "retrieved": "2026-07-21",
+  "sha256": "736dc2353f25f80cb054b16ade8f5e5a253a0d27a18e672b51f4111b373b6cc4"
+ },
+ "s02e10": {
+  "page": "Transcript of Ready, Aim, Marry Me",
+  "revid": 54995,
+  "retrieved": "2026-07-21",
+  "sha256": "3d1266854ae43576c1f52998497a38aeaf413e2efc142ff537788d064cf38d97"
+ },
+ "s02e11": {
+  "page": "Transcript of Out on a Limb",
+  "revid": 47453,
+  "retrieved": "2026-07-21",
+  "sha256": "1372b3f1c3d197ca53f83b5c78dc43b6acbdeb47f2cf6261f7ef9e92235c1918"
+ },
+ "s02e12": {
+  "page": "Transcript of Hand to God",
+  "revid": 54996,
+  "retrieved": "2026-07-21",
+  "sha256": "f5193bdcc972ae1afaaf2442eed4430c2efaa22040bc082d6395695e1e38e6b9"
+ },
+ "s02e13": {
+  "page": "Transcript of Motherboy XXX",
+  "revid": 55030,
+  "retrieved": "2026-07-21",
+  "sha256": "9734031f1e20873aa95ff48ee61673c0ed0308c1e39982a250a72280a915d5af"
+ },
+ "s02e14": {
+  "page": "Transcript of The Immaculate Election",
+  "revid": 55031,
+  "retrieved": "2026-07-21",
+  "sha256": "ecd06d1970344b4dba5fc5d592f35be5f0176b09409dae6b7788bf01847ce21d"
+ },
+ "s02e15": {
+  "page": "Transcript of Sword of Destiny",
+  "revid": 36496,
+  "retrieved": "2026-07-21",
+  "sha256": "bf4b991eba2c18ab364137eced5d3a5b9c345960159198f0e92a3da3e37c0b94"
+ },
+ "s02e16": {
+  "page": "Transcript of Meat the Veals",
+  "revid": 55032,
+  "retrieved": "2026-07-21",
+  "sha256": "c6679c66853a4c2d32506153ef4ee3a399595d33af2d5e14982e3544ec7f69cf"
+ },
+ "s02e17": {
+  "page": "Transcript of Spring Breakout",
+  "revid": 55033,
+  "retrieved": "2026-07-21",
+  "sha256": "725d803820632bcb0d33fc920b8161e67b78d3cbd36236f53c9318ad96ffb4c5"
+ },
+ "s02e18": {
+  "page": "Transcript of Righteous Brothers",
+  "revid": 55034,
+  "retrieved": "2026-07-21",
+  "sha256": "0e923bf094846b5834d9cee154a8892428ea31d491e3d7d403ab9d0f297ebe97"
+ },
+ "s03e01": {
+  "page": "Transcript of The Cabin Show",
+  "revid": 55035,
+  "retrieved": "2026-07-21",
+  "sha256": "69f1a508b311f76bff6eb7c097fad1aeb4827fadce7bb7a31d21e96160c1eb30"
+ },
+ "s03e02": {
+  "page": "Transcript of For British Eyes Only",
+  "revid": 55036,
+  "retrieved": "2026-07-21",
+  "sha256": "60220185da4ce0bb6ad467d7cc5725520f2e1fbb6decc62d7745723c6f7564e0"
+ },
+ "s03e03": {
+  "page": "Transcript of Forget-Me-Now",
+  "revid": 47478,
+  "retrieved": "2026-07-21",
+  "sha256": "ffa9b7d9ed329df6448f4d156856929477d2d3ac868358e9876887bf5620b653"
+ },
+ "s03e04": {
+  "page": "Transcript of Notapusy",
+  "revid": 55037,
+  "retrieved": "2026-07-21",
+  "sha256": "aba9db4186d65ba79774613c8e275280b41a0e203f6c82e0e0a46c2a730a506a"
+ },
+ "s03e05": {
+  "page": "Transcript of Mr. F",
+  "revid": 55038,
+  "retrieved": "2026-07-21",
+  "sha256": "0f185d939ae5bb1be549eafc2434d277cc42dbbc8d3632a1d4af5b97e3b92e32"
+ },
+ "s03e06": {
+  "page": "Transcript of The Ocean Walker",
+  "revid": 55039,
+  "retrieved": "2026-07-21",
+  "sha256": "93ee1739b718b22e00aaa765b4dbbbfa367132ac65710d63be1cc4bf1800703c"
+ },
+ "s03e07": {
+  "page": "Transcript of Prison Break-In",
+  "revid": 47489,
+  "retrieved": "2026-07-21",
+  "sha256": "b2b0bff00569aa6d805e272226b9b8fcb1e2d2af945771f552958d481762865d"
+ },
+ "s03e08": {
+  "page": "Transcript of Making a Stand",
+  "revid": 55040,
+  "retrieved": "2026-07-21",
+  "sha256": "3fe8da2846fa4c4b95fa4cbd9fcaf4a43416ea52e269c6c6c57e3b62c849eb4a"
+ },
+ "s03e09": {
+  "page": "Transcript of S.O.B.s",
+  "revid": 41718,
+  "retrieved": "2026-07-21",
+  "sha256": "8f8ed7dab0d2fdea785944e279507f14068aab84d11cd00e467199102897c305"
+ },
+ "s03e10": {
+  "page": "Transcript of Fakin' It",
+  "revid": 55041,
+  "retrieved": "2026-07-21",
+  "sha256": "823bc2a1dd8f461365adefac3574b33c906e73106f18a6b4723016913b52ef08"
+ },
+ "s03e11": {
+  "page": "Transcript of Family Ties",
+  "revid": 55042,
+  "retrieved": "2026-07-21",
+  "sha256": "17c24abf6ef3f1398d13139da2adebeb46fbee9d4465618dac2e652b243e95e3"
+ },
+ "s03e12": {
+  "page": "Transcript of Exit Strategy",
+  "revid": 55043,
+  "retrieved": "2026-07-21",
+  "sha256": "86b42cfa5f1e97957cb76a9d64f4dfd2ec9ab9bd9acefa9c214428ccd9286cd8"
+ },
+ "s03e13": {
+  "page": "Transcript of Development Arrested",
+  "revid": 55044,
+  "retrieved": "2026-07-21",
+  "sha256": "54167b245c88bf5dca80cd9d6d95ebdffa8bdc6101f4fa3009b3ca9690745c31"
+ },
+ "s04e01": {
+  "page": "Transcript of Flight of the Phoenix",
+  "revid": 41809,
+  "retrieved": "2026-07-21",
+  "sha256": "f8ff405edf7498494dd52bf5fdecb016c12f6f8909c347cf691ad873ffee60a7"
+ },
+ "s04e02": {
+  "page": "Transcript of Borderline Personalities",
+  "revid": 36551,
+  "retrieved": "2026-07-21",
+  "sha256": "25520c0ac2ce7a4ade58422763d0bcf9d98839bd44b4c28656f53dc8e7ad2975"
+ },
+ "s04e03": {
+  "page": "Transcript of Indian Takers",
+  "revid": 47465,
+  "retrieved": "2026-07-21",
+  "sha256": "1e9c41c66827b97b71c37e8b60301fe5d2dd4465ad38e6f8cdfa35b87869bf4b"
+ },
+ "s04e04": {
+  "page": "Transcript of The B. Team",
+  "revid": 36588,
+  "retrieved": "2026-07-21",
+  "sha256": "8d40a9afcb8bb57deebd7b8d635aec295e8d22954c9f7c5d9a516f54b48d77d8"
+ },
+ "s04e05": {
+  "page": "Transcript of A New Start",
+  "revid": 42235,
+  "retrieved": "2026-07-21",
+  "sha256": "65b25b786d5984da314bef12a58830c035f2eb110c650a685358338a13c7a0b1"
+ },
+ "s04e06": {
+  "page": "Transcript of Double Crossers",
+  "revid": 41689,
+  "retrieved": "2026-07-21",
+  "sha256": "11c1b2096c32fdd0cd7710a9beb9658a3f2fa306e2ba83f8936f6aeda13819f8"
+ },
+ "s04e07": {
+  "page": "Transcript of Colony Collapse",
+  "revid": 42201,
+  "retrieved": "2026-07-21",
+  "sha256": "7f494609633f62077ce5025796b582066cad93590ea7d5686da7463c4d13b9a2"
+ },
+ "s04e08": {
+  "page": "Transcript of Red Hairing",
+  "revid": 47466,
+  "retrieved": "2026-07-21",
+  "sha256": "5084c894a93b5428be60bdb8e38c33e132d203e1ccc236bec6bc273c311769bc"
+ },
+ "s04e09": {
+  "page": "Transcript of Smashed",
+  "revid": 41774,
+  "retrieved": "2026-07-21",
+  "sha256": "96fccfa1938f8a3d4e4a23ea9f305383291aef0fa90ad60e3a1b16b4a0f4931e"
+ },
+ "s04e10": {
+  "page": "Transcript of Queen B.",
+  "revid": 41767,
+  "retrieved": "2026-07-21",
+  "sha256": "f189812449d884ef725b30c24b4ca147bd5ae8bd3ab93dbeab9b2376b7b63456"
+ },
+ "s04e11": {
+  "page": "Transcript of A New Attitude",
+  "revid": 41806,
+  "retrieved": "2026-07-21",
+  "sha256": "3a5b1204123349c55793a3fa6fdbc1fc0f46d9105fd5037a4e5f3958366c31c1"
+ },
+ "s04e12": {
+  "page": "Transcript of Se\u00f1oritis",
+  "revid": 47485,
+  "retrieved": "2026-07-21",
+  "sha256": "9fa1094830c6f3f0d0c6bbec42236c73e72f2f23d5128da93f93b6cf5abe8939"
+ },
+ "s04e13": {
+  "page": "Transcript of It Gets Better",
+  "revid": 41841,
+  "retrieved": "2026-07-21",
+  "sha256": "6565f054f37c31d023f48e9bc70fb72071d001c60c1a435132cf32781451b29c"
+ },
+ "s04e14": {
+  "page": "Transcript of Off the Hook",
+  "revid": 56809,
+  "retrieved": "2026-07-21",
+  "sha256": "57519f639b94cadb9c595d3e6207374f220b471c847cb0d4383a8a34beaa3d15"
+ },
+ "s04e15": {
+  "page": "Transcript of Blockheads",
+  "revid": 42167,
+  "retrieved": "2026-07-21",
+  "sha256": "27769f0130734925c9dbf16cc33b8c5c10738fbdddaac4996b294ede6ebc984a"
+ }
+}
